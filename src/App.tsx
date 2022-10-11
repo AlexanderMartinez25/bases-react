@@ -7,10 +7,10 @@ import { CounterHook } from './bases/CounterHook'
 function App() {
   return (
     <>
-      <CounterHook />
       <Counter initialValue={15} />
       <CounterBy />
       <CounterEffect />
+      <CounterHook />
     </>
   )
 }
